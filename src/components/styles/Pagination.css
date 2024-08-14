@@ -1,0 +1,21 @@
+.pagination {
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.pagination__button {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 5px;
+	cursor: pointer;
+    width: 10vh;
+    transition: ease-out 0.3s;  
+}
+
+.pagination__button.active {	
+	color: #fff;
+    transform:scale(1.1);
+    box-shadow: inset 400px 0 0 0 #088a08;
+}
